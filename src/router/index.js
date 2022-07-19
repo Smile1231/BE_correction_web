@@ -1,9 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Login from '../components/Login.vue'
 import axios from 'axios'
 
-import GeneIndex from '../components/gene/GeneIndex.vue'
+import Search from '../components/show/Search.vue'
 
 
 //接口基础地址
@@ -36,11 +35,11 @@ const routes = [
   },
   {
     path: '/login',
-    component: GeneIndex
+    component: Search
   },
   {
-    path: '/geneIndex',
-    component: GeneIndex
+    path: '/Search',
+    component: Search
   },
 ]
 
